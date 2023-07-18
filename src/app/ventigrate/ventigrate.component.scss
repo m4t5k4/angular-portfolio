@@ -1,0 +1,125 @@
+:host {
+    height: 100%;
+}
+
+@media (min-width: 1025px) {
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .vntg-container {
+        background: url('../../assets/vent-hor.png');
+        background-size: cover;
+        background-position: right;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-y: auto;
+        width: 50%;
+    }
+
+    .vntg-txt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        margin: 0 4vw 0 4vw;
+        height: 100%;
+        text-align: center;
+    }
+
+    .comp-container {
+        background: url('../../assets/comp-hor.png');
+        background-size: cover;
+        background-position: right;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-y: auto;
+        width: 50%;
+    }
+
+    .comp-txt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        margin: 0 4vw 0 4vw;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        height: 100%;
+    }
+
+    .vntg-container {
+        background: url('../../assets/vent-ver.png');
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-y: auto;
+    }
+
+    .vntg-txt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2vh 4vw 0 4vw;
+        height: 100%;
+        text-align: center;
+    }
+
+    .comp-container {
+        background: url('../../assets/comp-ver.png');
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-y: auto;
+    }
+
+    .comp-txt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        align-items: center; 
+        margin: 2vh 4vw 0 4vw;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+.part {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    user-select: none;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh 0 6vh 0;
+}
+
+a {
+    text-decoration: none;
+}

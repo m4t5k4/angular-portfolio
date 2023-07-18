@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 6vh 0 6vh 0;
+}
+
+.item {
+    margin: 10px;
+    color: rgb(243, 243, 243);
+    user-select: none;
+}
+
+.part {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.parent-container {
+    background: url('../../assets/dark-ver.png');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.avatar {
+    height: 18vh;
+    border-radius: 10%;
+}
+
+.text-container {
+    display: block;
+    margin: 0 4vw 0 4vw;
+}
+
+.text-container img {
+    float: left;
+    margin-right: 0.5em;
+}
+
+@media (min-width: 1025px) {
+    .parent-container {
+        //background: url('../../assets/dark-chalk-hor.jpg');
+        background-size: cover;
+        background: url("../../assets/dark-hor.png");
+    }
+
+    .text-container {
+        margin: 5vh 30vw 0 30vw;
+    }
+}
+
+:host {
+    height: 100%;
+}

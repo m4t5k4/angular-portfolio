@@ -1,0 +1,53 @@
+@media (min-width: 1025px) { 
+    .bayer-txt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin: 0 40vw 0 40vw;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .bayer-txt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin: 0 4vw 0 4vw;
+        text-align: center;
+    }
+}
+
+:host {
+    height: 100%;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 6vh 0 6vh 0;
+}
+
+.part {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    user-select: none;
+}
+
+.bayer-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+}

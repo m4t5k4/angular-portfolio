@@ -1,0 +1,15 @@
+p {
+    color: rgb(241, 241, 241);
+    font-size: 0.7rem;
+    margin: 0.3rem 1rem 0.3rem 1rem;
+}
+
+.footer {
+    position:fixed;
+    bottom:0px;
+    background-color:rgb(34, 34, 34);
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    height: 3vh;
+}
